@@ -4,43 +4,35 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-
 }
-
 #Pokeballs__container{
     width: 100%;
     height: 149px;
     background-color: aqua;
 }
-
 #Pokeballs__red{
 width: 100%;
 height: 100px;
 background-color: #DD1A1A;
 }
-
 .Pokeballs__black{
     width: 100%;
     height: 49px;
     background-color: #0C0C0C;;
 }
-
 #img__blacks{
     width: 83px;
     height: 83px;
     position: absolute;
     right: 120px;
     top: 75px;
-    
 }
-
 #img__pokedex{
     width: 400px;
     height: 73px;
     position: absolute;
     left: 70px;
     top: 50px;
-    
 }
 .second__container{
     width: 100%;
@@ -48,11 +40,9 @@ background-color: #DD1A1A;
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: 150px;
+    padding-left: 135px;
 }
-
 #phaser{
-
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
@@ -61,4 +51,46 @@ line-height: normal;
 }
 #phaser>b{
     color: #FE1936;
+}
+.third__container{
+    width: 100%;
+    height: 125px;
+    display: flex;
+}
+.form{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+    width: 50%;
+}
+.input{
+width: 400.016px;
+height: 68px;
+}
+.btn__search{
+    width: 210.481px;
+    height: 68px;
+    background: #D93F3F;
+    border-style: none;
+    color: white;
+}
+.btn__search:hover{
+    background-color: #cc190c;
+    color: black;
+}
+#select{
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: #FFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+}
+.select__container{
+width: 550.839px;
+height: 68px;
+flex-shrink: 0;
 }
