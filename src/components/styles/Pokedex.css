@@ -1,0 +1,64 @@
+.Alls__container{
+ width: 100%;
+ height: 100vh;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+#Pokeballs__container{
+    width: 100%;
+    height: 149px;
+    background-color: aqua;
+}
+
+#Pokeballs__red{
+width: 100%;
+height: 100px;
+background-color: #DD1A1A;
+}
+
+.Pokeballs__black{
+    width: 100%;
+    height: 49px;
+    background-color: #0C0C0C;;
+}
+
+#img__blacks{
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    right: 120px;
+    top: 75px;
+    
+}
+
+#img__pokedex{
+    width: 400px;
+    height: 73px;
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    
+}
+.second__container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 150px;
+}
+
+#phaser{
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#phaser>b{
+    color: #FE1936;
+}

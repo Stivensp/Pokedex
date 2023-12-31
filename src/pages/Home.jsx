@@ -1,9 +1,16 @@
 import React from 'react'
 import "/src/components/styles/Home.css"
+import { setTrainerName } from '../store/slices/trainerName.slice'
+import { useDispatch } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 const Home = () => {
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
   const handleSubmit=(e)=>{
-    e.preventDefault()
-    console.log(e.target.trainerName.value);
+   e.preventDefault()
+   dispatch(setTrainerName(e.target.trainerName.value));
+   navigate("/pokedex")
   }
   return (
     <main>
@@ -13,7 +20,7 @@ const Home = () => {
           <div className='All__container'>
           <img className='img__pokedex' src="\img\home\Pokedex.png" alt="" />
         <p id='hello'>¡Hola entrenador!</p>
-        <p id='para'>Para poder comenzar,dame tu nombre</p>
+        <p id='para'>Para poder comenzar, dame tu nombre</p>
 
         <form onSubmit={handleSubmit} typeof='text' htmlFor="">
           <input autoComplete='off' required name='trainerName'  id='bar' type="text" />
