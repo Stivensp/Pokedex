@@ -23,3 +23,61 @@
     border-radius: 6px;
 background: #DD1A1A;
 }
+
+.btn__arrowOne{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.btn__arrowOne:hover{
+    border-radius: 6px;
+background: #DD1A1A;
+}
+
+.btn__arrowTwo{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.btn__arrowTwo:hover{
+    border-radius: 6px;
+background: #DD1A1A;
+}
+
+
+.btn__arrowThree{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.btn__arrowThree:hover{
+    border-radius: 6px;
+background: #DD1A1A;
+}
+
+
+.btn__arrowFour{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+
+.btn__arrowFour:hover{
+    border-radius: 6px;
+background: #DD1A1A;
+}
