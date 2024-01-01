@@ -1,0 +1,7 @@
+.All__pokemons{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}

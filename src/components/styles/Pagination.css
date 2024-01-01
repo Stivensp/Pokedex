@@ -10,19 +10,14 @@
     margin: 0;
  
 }
-
 .list{
-   
     margin-left: 15px;
     margin-bottom: 40px;
-    
 }
-
 .btns{
     width: 70px;
     height: 70px;
     font-size: 18px;
-
 }
 .btns:hover{
     border-radius: 6px;

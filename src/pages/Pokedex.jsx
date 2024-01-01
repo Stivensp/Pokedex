@@ -46,7 +46,10 @@ const Pokedex = () => {
     
 
       </div>
+    
       <PokemonList pokemons={allPokemons}/>
+ 
+
       </main>
     
       </section>
