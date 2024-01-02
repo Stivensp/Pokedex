@@ -68,11 +68,12 @@ export const PokemonDetail = () => {
 
       <div className='Body__infoSeis'>
       <div className='DivUno'>
+        
       <div className='TypeUno'><p>{pokemonInfo?.data.types[0].type.name}</p></div>
-        <div className='TypeDos'>Poison</div>
+        <div className='TypeDos'><p>{pokemonInfo?.data.types[0].type.name}</p></div>
       </div>
       <div className='DivDos'>
-        <div className='SkillUno'>Overgrow</div>
+        <div className='SkillUno'>{pokemonInfo?.data.abilities[0].ability.name}</div>
         <div className='SkillDos'>
 Chlorophyll</div>
       </div>
