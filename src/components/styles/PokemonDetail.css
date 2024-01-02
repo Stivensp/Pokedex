@@ -1,0 +1,375 @@
+.Container__pokemonDetail{
+    width: 100%;
+    height: 2500px;
+}
+PokemonDetail__header{
+    width: 100%;
+    height: 173px;
+
+}
+
+#PokemonDetail__red{
+width: 100%;
+height: 123.181px;
+background-color: #DD1A1A;;
+}
+
+#PokemonDetail__black{
+background-color: #0C0C0C;
+width: 100%;
+height: 49.705px;
+}
+
+#PokemonDetail__img_Pokedex{
+    width: 431px;
+    position: relative;
+    left: 90px;
+    top: 60px;
+}
+
+#PokemonDetail__img_Group{
+    position: relative;
+    width: 90px;
+    right: -1300px;
+    top: -25px;
+}
+
+.Container__allInfo{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 1116px;
+    height: 1272px;
+    flex-shrink: 0;
+    margin-left: 190px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+   
+    align-self: center;
+}
+.Container__header{
+    width: 100%;
+    height: 185px;
+    border-radius: 4px 4px 0px 0px;
+background: linear-gradient(179deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+
+#Body__info{
+    height: 210px;
+    width: 100%;
+   
+}
+
+#Body__infoDos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    color: #416460;
+
+text-align: center;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+#Body__infoTres{
+    width: 100%;
+    height: 80px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #416460;
+font-family: Roboto;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+#divisor{
+    border-left: 1px solid #9F9F9F;
+    height: 300px;
+    transform: rotate(90deg);
+   
+}
+
+#divisorDos{
+    border-left: 1px solid #9F9F9F;
+    height: 300px;
+    transform: rotate(90deg);
+}
+
+#Body__infoCuatro{
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+}
+#ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    width: 200px;
+    height: 25px;
+}
+
+li{
+    font-size: 16px;
+    color: #0F0F2D;;
+}
+
+.Body__infoCinco{
+    margin-top: 40px;
+    width: 100%;
+    height: 55px;
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Tipe{
+    width: 435px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302F2F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#Skills{
+    width: 435px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302F2F;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Body__infoSeis{
+width: 100%;
+height: 55px;
+
+display: flex;
+}
+
+.DivUno{
+    width: 50%;
+
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.DivDos{
+    width: 50%;
+
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.SkillUno{
+    width: 207px;
+    height: 47px;
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302F2F;
+
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+text-transform: capitalize;
+}
+
+.SkillDos{
+    width: 207px;
+    height: 47px;
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #302F2F;
+
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+text-transform: capitalize;
+}
+
+.TypeUno{
+    width: 207px;
+    height: 47px;
+    background: #85C9C5;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+text-transform: capitalize;
+}
+
+.TypeDos{
+    width: 207px;
+height: 47px;
+background: #6C3D9A;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 25px;
+text-transform: capitalize;
+}
+
+.Division__skills{
+
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 45px;
+    height: 600px;
+}
+
+.Division__skills_Header{
+    width: 100%;
+    height: 150px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#imgs__pokemon{
+    width: 341px;
+    height: 335px;
+    position: relative;
+    left: 36%;
+    top: -65%;
+    
+}
+.pokemon{
+    text-transform: capitalize;
+}
+
+.Division__AllSkills{
+    width: 100%;
+    
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Container__bar{
+   width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 34px;
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#li__stat{
+    margin-top: 9px;
+    position: relative;
+    
+   
+}
+
+.Container__statss{
+
+    width: 100%;
+    height:20px;
+    display: flex;
+    padding-left: 5%;
+    justify-content: space-between;
+    padding-right: 5%;
+    text-transform: capitalize;
+}
+
+#Progress__bar{
+    width: 45%;
+    height: 100%;
+    border-radius: 4px;
+background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+}
+
+#AllSkills__header{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #302F2F;
+
+font-family: Roboto;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left: 65px;
+}
+#Container__AllSkills{
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 25px;
+
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    padding-left: 1%;
+    
+}
+
+#AllSkills__li{
+    width: 100px;
+    height: 30px;
+   
+    margin-left: 5px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#AllSkills__li:hover{
+    background-color:gray;
+}

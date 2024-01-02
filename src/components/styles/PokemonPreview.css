@@ -1,5 +1,6 @@
 
 #Cards_{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 14px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 261px;
     height: 383px;
     flex-shrink: 0;
@@ -9,6 +10,7 @@
     border: 10px;
     border-style: solid;
     border-color:#5B3184 ;/*Variable*/
+    text-decoration: none;
 }
 
 #Cards_:hover{
@@ -84,6 +86,3 @@ line-height: normal;
     color: #5B3184;/*Variable*/
 }
 
-Link{
-    text-decoration: none;
-}
