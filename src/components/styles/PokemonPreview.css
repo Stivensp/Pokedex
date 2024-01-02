@@ -3,26 +3,28 @@
     width: 261px;
     height: 383px;
     flex-shrink: 0;
-    background-color: #5B3184;
+    background-color: #5B3184; /*Variable*/
     margin: 15px;
     border-radius: 10px;
     border: 10px;
     border-style: solid;
-    border-color:#5B3184 ;
+    border-color:#5B3184 ;/*Variable*/
 }
 
+#Cards_:hover{
+   border-color:#52178d ;/*Variable*/
+}
 #Card__header{
     width: 100%;
     height: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(177deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+    background: linear-gradient(177deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);/*Variable*/
 ;
 }
-
 #imgs{
-    width: 162px;
+width: 162px;
 height: 149px;
 position: relative;
 top: 30px;
@@ -40,7 +42,7 @@ top: 30px;
 }
 
 #pokemon__name{
-    color: #5B3184;;
+    color: #5B3184;/*Variable*/
 }
 #pokemon__type{
     color: #4F4F4F;
@@ -75,4 +77,13 @@ font-size: 10px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+#stat{
+    font-size: 16px;
+    color: #5B3184;/*Variable*/
+}
+
+Link{
+    text-decoration: none;
 }
