@@ -4,13 +4,16 @@
     width: 261px;
     height: 383px;
     flex-shrink: 0;
-    background-color: #B1DBBC;; /*Variable*/
+    /* background-color: #B1DBBC;; */ /*Variable*/
     margin: 15px;
     border-radius: 10px;
     border: 10px;
     border-style: solid;
-    border-color:#B1DBBC; ;/*Variable*/
+    /* border-color:#B1DBBC; ; *//*Variable*/
     text-decoration: none;
+
+    /*Les puse ahi al lado las variable lo que cambia colores
+    */
 }
 
 #Cards_:hover{
@@ -22,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(179deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+    /* background: linear-gradient(179deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%); */
 
 
 ;

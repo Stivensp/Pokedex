@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import "/src/components/styles/PokemonDetail.css"
 import axios from 'axios';
+import useDominantColor from '../hooks/useDominantColor';
 import { useParams } from 'react-router-dom';
 export const PokemonDetail = () => {
   const [pokemonInfo, setPokemonInfo] = useState(null)
   const {id} = useParams();
 
+
+
+  const Img= pokemonInfo?.data.sprites.other["dream_world"].front_default || pokemonInfo?.data.sprites.other["official-artwork"].front_default
+    
+  const {dominantColor, darkerColor } = useDominantColor(Img)
+  console.log(dominantColor);
   useEffect(()=>{
     axios
     .get(`https://pokeapi.co/api/v2/pokemon/${id}/`)
@@ -30,7 +37,9 @@ export const PokemonDetail = () => {
      </header>
 
     <div className='Container__allInfo'>
-      <header className='Container__header'>
+    
+      <header style={{background:`${dominantColor}`}} className='Container__header'>
+
       <img id='imgs__pokemon' src={pokemonInfo?.data.sprites.other["official-artwork"].front_default} alt="" />
       </header>
       <div id='Body__info'>

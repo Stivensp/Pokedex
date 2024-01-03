@@ -2,8 +2,15 @@ import React, { useEffect, useState } from 'react'
 import "/src/components/styles/PokemonPreview.css"
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import useDominantColor from '../hooks/useDominantColor';
 const PokemonPreview = ({pokemonURL}) => {
     const [pokemonInfo, setPokemonInfo] = useState(null)
+
+    const Img= pokemonInfo?.data.sprites.other["dream_world"].front_default
+    
+    const {dominantColor, darkerColor } = useDominantColor(Img)
+    console.log(pokemonURL)
+
     useEffect(()=>{
         axios.get(pokemonURL)
         .then((data) => setPokemonInfo(data))
@@ -41,12 +48,12 @@ const PokemonPreview = ({pokemonURL}) => {
 
 
   return (
-    
-        <Link  id='Cards_' to={`/pokedex/${pokemonInfo?.data.id}`}>
-        <header id='Card__header'>
-            <img id='imgs' src={pokemonInfo?.data.sprites.other["official-artwork"].front_default} alt="" />
+        
+        <Link style={{background:`${dominantColor}`, borderColor:`${darkerColor}`}}  id='Cards_' to={`/pokedex/${pokemonInfo?.data.id}`}>
+        <header style={{background:`${dominantColor}`, borderColor:`${dominantColor}`}} id='Card__header'>
+            <img  id='imgs' src={pokemonInfo?.data.sprites.other["official-artwork"].front_default} alt="" />
         </header>
-        <div id='Body__container'>
+        <div  id='Body__container'>
         <h3 id='pokemon__name'>{pokemonInfo?.data.name}</h3>
         <h4 id='pokemon__type'>
             {pokemonInfo?.data.types.map((type)=>type.type.name).join(" / ")}
